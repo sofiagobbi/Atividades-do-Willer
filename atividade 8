@@ -42,6 +42,8 @@ INSERT INTO tarefas (projeto_id, descricao, status) VALUES
 select * from projetos
 select * from tarefas
 
+UPDATE projetos SET status = 'CANCELADO' WHERE id = 1;
 
+SELECT * FROM tarefas WHERE projeto_id = 1;
 
 
